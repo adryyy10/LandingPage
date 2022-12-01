@@ -1,0 +1,54 @@
+body {
+    color: #001d2f;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.no-nav-header {
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    top: 0;
+}
+
+.no-nav-header .nav {
+    height: 6rem;
+}
+
+.no-nav-header .nav .container-fluid {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+    justify-content: space-between;
+}
+.no-nav-header .nav .container-fluid .expressvpn-logo {
+    background: url(/images/express-vpn-header.png) 50%/contain no-repeat;
+    height: 3rem;
+    width: 10rem;
+}
+
+.no-nav-header .nav .container-fluid .dd {
+    margin-left: auto;
+    display: flex;
+    
+}
+
+.no-nav-header .nav .container-fluid .dd .dd-button{
+    background-image: url('/images/language.png');
+    background-position: 50%;
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 2.5rem;
+    width: 2.5rem;
+    
+}
+
+.no-nav-header .nav .container-fluid .dd .dd-ul{
+    display: none;
+}
+
