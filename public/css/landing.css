@@ -187,14 +187,40 @@ body {
     flex-direction: column;
 }
 
-.row .section-row h1 {
+.row .section-row .column-content {
+    margin-bottom: 2rem;
+}
+
+.row .section-row .column-content h1 {
     margin-top: 0px;
     font-weight: 500;
 }
 
-.row .section-row p {
+.row .section-row .column-content p {
     font-size: 17px;
     line-height: 30px;
     margin-top: 0px;
     margin-bottom: 2rem;
+}
+
+.row .section-row .column-content .os {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .section-row .column-content .os .os-link img {
+    border-radius: 5px;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 1rem;
+}
+
+.row .section-row .column-content .all-apps {
+    color: #0f866c;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    font-size: 16px;
 }
